@@ -1,0 +1,185 @@
+.backGround {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #a08a6a;
+    height: 100%;
+}
+.mainImageIcon {
+    position: absolute;
+    width: 37.1%;
+    top: 80px;
+    left: 32.04%;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.ayumiKimura {
+    position: absolute;
+    top: 19px;
+    left: calc(50% - 154px);
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 307px;
+    height: 60px;
+}
+.morePart {
+    position: absolute;
+    top: 406px;
+    right: 67px;
+    width: 307px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.morePartChild {
+    width: 142px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #e0d5c3;
+    height: 140px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textMore {
+    position: relative;
+    letter-spacing: 0.1em;
+    z-index: 1;
+    font-size: 18px;
+}
+.morePartItem {
+    left: 30px;
+    width: 0;
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.898);
+    transform: rotate(90deg);
+}
+.circleRight {
+    width: 305px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 305px;
+    z-index: 0;
+}
+.textAboutImage {
+    flex: 1;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 77px;
+    z-index: 1;
+    margin-left: -268px;
+}
+.textPhotographer {
+    width: 193px;
+    position: absolute;
+    margin: 0 !important;
+    top: 214px;
+    left: 121px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Italiana;
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+}
+.imageExplainText {
+    height: 305px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imageInfo {
+    position: absolute;
+    width: 28.2%;
+    top: 500px;
+    right: 25.25%;
+    left: 60.55%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 16px;
+}
+.smallCircle {
+    width: 93px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 93px;
+}
+.leftCircle {
+    width: 176px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    box-sizing: border-box;
+    height: 173px;
+    margin-left: -84px;
+}
+.helloImAyumi {
+    margin: 0;
+}
+.aboutMe {
+    flex: 1;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 134px;
+    margin-left: -84px;
+}
+.myInfo {
+    position: absolute;
+    width: 27.49%;
+    top: 143px;
+    right: 56.91%;
+    left: 15.6%;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 16px;
+}
+.desktop1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.desktop {
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(31, 29, 29);
+    font-family: Jaldi;
+}
