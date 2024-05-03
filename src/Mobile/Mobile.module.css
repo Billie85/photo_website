@@ -5,7 +5,7 @@
     right: 0px;
     left: 0px;
     background-color: #a08a6a;
-    height: 1184px;
+    height: 100%;
 }
 .mainImageIcon {
     position: absolute;
@@ -76,6 +76,20 @@
     text-align: left;
     font-size: 10px;
 }
+
+.imageInfo {
+    position: absolute;
+    top: 753px;
+    left: 60px;
+    width: 223px;
+    height: 204px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 13px;
+}
 .circleRight {
     width: 205px;
     position: relative;
@@ -94,19 +108,7 @@
     flex-shrink: 0;
     margin-left: -182px;
 }
-.imageInfo {
-    position: absolute;
-    top: 753px;
-    left: 60px;
-    width: 223px;
-    height: 204px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    font-size: 13px;
-}
+
 .textPhotographer {
     position: absolute;
     top: 911px;
@@ -116,10 +118,10 @@
     font-family: Italiana;
 }
 .mobile {
-    width: 100%;
+    width: 100vw;
     position: relative;
     background-color: #fff;
-    height: 1039px;
+    height: 100vh;
     overflow: hidden;
     text-align: center;
     font-size: 30px;
