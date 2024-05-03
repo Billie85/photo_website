@@ -1,0 +1,128 @@
+.backGround {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #a08a6a;
+    height: 1184px;
+}
+.mainImageIcon {
+    position: absolute;
+    width: 70.98%;
+    top: 254px;
+    right: 14.41%;
+    left: 14.61%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 499px;
+    object-fit: cover;
+}
+.ayumiKimura {
+    position: absolute;
+    top: 19px;
+    left: calc(50% - 153.5px);
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 307px;
+    height: 60px;
+}
+.smallCircle {
+    width: 93px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 93px;
+}
+.leftCircle {
+    width: 176px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    box-sizing: border-box;
+    height: 173px;
+    margin-left: -86px;
+}
+.helloImAyumi {
+    margin: 0;
+}
+.aboutMeTxtContainer {
+    width: 100%;
+}
+.aboutMe {
+    width: 158px;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 134px;
+    flex-shrink: 0;
+    margin-left: -86px;
+}
+.myInfo {
+    position: absolute;
+    width: 53.24%;
+    top: 117px;
+    right: 20.67%;
+    left: 26.1%;
+    height: 187px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 10px;
+}
+.circleRight {
+    width: 205px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 205px;
+}
+.textAboutImage {
+    width: 178px;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    flex-shrink: 0;
+    margin-left: -182px;
+}
+.imageInfo {
+    position: absolute;
+    top: 753px;
+    left: 60px;
+    width: 223px;
+    height: 204px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 13px;
+}
+.textPhotographer {
+    position: absolute;
+    top: 911px;
+    left: 183px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: Italiana;
+}
+.mobile {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1039px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Jaldi;
+}

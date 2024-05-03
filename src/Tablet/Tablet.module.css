@@ -1,0 +1,152 @@
+.backGround {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #a08a6a;
+    height: 1184px;
+}
+.mainImageIcon {
+    position: absolute;
+    width: 59.07%;
+    top: 156px;
+    right: 20.46%;
+    left: 20.46%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 737px;
+    object-fit: cover;
+}
+.ayumiKimura {
+    position: absolute;
+    top: 19px;
+    left: calc(50% - 154px);
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 307px;
+    height: 60px;
+}
+.circleRight {
+    width: 205px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 205px;
+    z-index: 0;
+}
+.textAboutImage {
+    width: 221px;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    flex-shrink: 0;
+    z-index: 1;
+    margin-left: -82px;
+}
+.textPhotographer {
+    width: 145px;
+    position: absolute;
+    margin: 0 !important;
+    top: 124px;
+    left: 60.17px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: Italiana;
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+}
+.imageExplainText {
+    align-self: stretch;
+    height: 142px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imageInfo {
+    position: absolute;
+    width: 29.94%;
+    top: 818px;
+    right: 11.79%;
+    left: 58.26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.smallCircle {
+    width: 93px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 93px;
+}
+.leftCircle {
+    width: 176px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    box-sizing: border-box;
+    height: 173px;
+    margin-left: -82px;
+}
+.helloImAyumi {
+    margin: 0;
+}
+.aboutMeTxtContainer {
+    width: 100%;
+}
+.aboutMe {
+    width: 175.6px;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 149px;
+    flex-shrink: 0;
+    margin-left: -82px;
+}
+.myInfo {
+    position: absolute;
+    width: 38.76%;
+    top: 69px;
+    right: 50%;
+    left: 11.25%;
+    height: 246px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tablet1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.tablet {
+    width: 100%;
+    position: relative;
+    height: 1039px;
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+    font-family: Jaldi;
+}
+
