@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Tablet from "./Tablet/Tablet.tsx";
-import Desktop from "./Desktop/Desktop.tsx";
+import Desktop from "./Desktop/Desktop.js";
 import Mobile from "./Mobile/Mobile.tsx";
 
 function App() {

@@ -6,11 +6,11 @@ import image from '../image/image.png';
 const Mobile:FunctionComponent = () => {
   	return (
 	<div className={styles.mobile}>
-		<div className={styles.backGround} />
+		<div className={styles.BackGround} />
 		<div>
-    		<img className={styles.mainImageIcon} alt="" src={image} />
+    		<img className={styles.MainImage} alt="" src={image} />
 		</div>
-    	<div className={styles.ayumiKimura}>Ayumi Kimura</div>
+    	<div className={styles.MyName}>Ayumi Kimura</div>
     	<div className={styles.myInfo}>
     	    <div className={styles.smallCircle} />
     	    <div className={styles.leftCircle} />
@@ -21,11 +21,11 @@ const Mobile:FunctionComponent = () => {
     	    	</span>
     		</div>
     	</div>
-    	<div className={styles.imageInfo}>
+    	{/* <div className={styles.imageInfo}>
     		<div className={styles.circleRight} />
     		<div className={styles.textAboutImage}>Rising from the heart of the Tularosa Basin is one of the world's great natural wonders - the glistening white sands of New Mexico</div>
-    	</div>
-    	<div className={styles.textPhotographer}>photo by Carly Osborn</div>
+    	</div> */}
+    	{/* <div className={styles.textPhotographer}>photo by Carly Osborn</div> */}
 	</div>);
 };
 export default Mobile;      			

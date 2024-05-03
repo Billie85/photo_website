@@ -7,16 +7,16 @@ import image from '../image/image.png';
 const Tablet:FunctionComponent = () => {
 	return (
 	<div className={styles.tablet}>
-		<div className={styles.backGround} />
-		<img className={styles.mainImageIcon} alt="" src={image} />
-		<div className={styles.ayumiKimura}>Ayumi Kimura</div>
-		<div className={styles.imageInfo}>
+		<div className={styles.BackGround} />
+		<img className={styles.MainImage} alt="" src={image} />
+		<div className={styles.MyName}>Ayumi Kimura</div>
+		{/* <div className={styles.imageInfo}>
 			<div className={styles.imageExplainText}>
 				<div className={styles.circleRight} />
 				<div className={styles.textAboutImage}>Rising from the heart of the Tularosa Basin is one of the world's great natural wonders - the glistening white sands of New Mexico</div>
 				<div className={styles.textPhotographer}>photo by Carly Osborn</div>
 			</div>
-		</div>
+		</div> */}
 		<div className={styles.myInfo}>
 			<div className={styles.smallCircle} />
 			<div className={styles.leftCircle} />

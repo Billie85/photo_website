@@ -1,13 +1,13 @@
-.backGround {
+.BackGround {
     position: absolute;
     width: 100%;
     top: 0px;
     right: 0px;
     left: 0px;
-    background-color: #a08a6a;
+    BackGround-color: #a08a6a;
     height: 100%;
 }
-.mainImageIcon {
+.MainImage {
     position: absolute;
     width: 59.09%;
     top: 156px;
@@ -18,7 +18,7 @@
     height: 737px;
     object-fit: cover;
 }
-.ayumiKimura {
+.MyName {
     position: absolute;
     top: 19px;
     left: calc(50% - 154px);
@@ -130,7 +130,7 @@
 .tablet {
     width: 100vw;
     position: relative;
-    background-color: #fff;
+    BackGround-color: #fff;
     height: 100vh;
     overflow: hidden;
     text-align: left;

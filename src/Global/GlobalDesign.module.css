@@ -1,0 +1,100 @@
+.myInfo {
+    position: absolute;
+    width: 27.49%;
+    top: 143px;
+    right: 56.91%;
+    left: 15.6%;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 16px;
+}
+.smallCircle {
+    width: 93px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 93px;
+}
+.leftCircle {
+    width: 176px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    box-sizing: border-box;
+    height: 173px;
+    margin-left: -84px;
+}
+.aboutMe {
+    flex: 1;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 134px;
+    margin-left: -84px;
+}
+.helloImAyumi {
+    margin: 0;
+}
+
+/* ========== image info ========== */
+
+.imageInfo {
+    position: absolute;
+    width: 28.2%;
+    top: 500px;
+    right: 25.25%;
+    left: 60.55%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 16px;
+}
+.imageExplainText {
+    height: 305px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.circleRight {
+    width: 305px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    box-sizing: border-box;
+    height: 305px;
+    z-index: 0;
+}
+.textAboutImage {
+    flex: 1;
+    position: relative;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    height: 77px;
+    z-index: 1;
+    margin-left: -268px;
+}
+.textPhotographer {
+    width: 193px;
+    position: absolute;
+    margin: 0 !important;
+    top: 214px;
+    left: 121px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Italiana;
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+}

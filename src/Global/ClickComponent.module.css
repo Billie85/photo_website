@@ -1,0 +1,43 @@
+.morePart {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 307px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.morePartChild {
+    width: 142px;
+    position: relative;
+    border-radius: 50%;
+    BackGround-color: #e0d5c3;
+    height: 140px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.MoreButton {
+    position: relative;
+    letter-spacing: 0.1em;
+    z-index: 1;
+    font-size: 18px;
+    border: none;
+    BackGround-color: #e0d5c3;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 20px;
+}
+.morePartItem {
+    left: 30px;
+    width: 0;
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.771);
+    transform: rotate(90deg);
+}
